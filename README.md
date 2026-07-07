@@ -1,4 +1,3 @@
-markdown
 <h1 align="center">⛩️ Otaku Sushi Bar 🍣</h1>
 
 <p align="center">
@@ -72,11 +71,13 @@ Abra um terminal e navegue até a pasta do backend para instalar as dependência
 ```bash
 cd backend
 npm install
+npm init -y
+npm install express cors 
 node server.js
 
 ```
 
-> O servidor estará rodando e escutando as requisições na porta `http://localhost:3000`.
+> O servidor estará rodando e escutando as requisições na porta `http://localhost:3000` ou use o Live Server no index.html.
 
 ### 3. Iniciando o Frontend (Interface)
 
