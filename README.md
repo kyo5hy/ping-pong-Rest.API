@@ -1,10 +1,4 @@
-A documentação é a alma de qualquer projeto de software bem-sucedido. Um `README.md` bem estruturado não só impressiona os avaliadores, mas também mostra o seu profissionalismo e cuidado com a manutenibilidade do código.
-
-Aqui está o código Markdown completo para o seu `README.md`. Crie este arquivo na raiz do seu projeto (junto com o `.gitignore`) e cole o conteúdo abaixo.
-
----
-
-```markdown
+markdown
 <h1 align="center">⛩️ Otaku Sushi Bar 🍣</h1>
 
 <p align="center">
