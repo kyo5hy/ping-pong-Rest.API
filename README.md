@@ -1,3 +1,10 @@
+A documentação é a alma de qualquer projeto de software bem-sucedido. Um `README.md` bem estruturado não só impressiona os avaliadores, mas também mostra o seu profissionalismo e cuidado com a manutenibilidade do código.
+
+Aqui está o código Markdown completo para o seu `README.md`. Crie este arquivo na raiz do seu projeto (junto com o `.gitignore`) e cole o conteúdo abaixo.
+
+---
+
+```markdown
 <h1 align="center">⛩️ Otaku Sushi Bar 🍣</h1>
 
 <p align="center">
@@ -61,3 +68,58 @@ Antes de começar, você precisará ter a seguinte ferramenta instalada em sua m
 ```bash
 git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
 cd SEU_REPOSITORIO
+
+```
+
+### 2. Iniciando o Backend (Servidor e API)
+
+Abra um terminal e navegue até a pasta do backend para instalar as dependências e iniciar o servidor:
+
+```bash
+cd backend
+npm install
+node server.js
+
+```
+
+> O servidor estará rodando e escutando as requisições na porta `http://localhost:3000`.
+
+### 3. Iniciando o Frontend (Interface)
+
+Como o frontend foi construído utilizando apenas HTML, CSS e JS Vanilla (sem frameworks complexos de build), **não é necessário rodar nenhum comando npm**.
+
+Basta abrir o arquivo `frontend/index.html` diretamente no seu navegador, ou utilizar a extensão **Live Server** no VS Code para uma melhor experiência de desenvolvimento.
+
+---
+
+## 🗂️ Estrutura de Diretórios
+
+```text
+📦 PING-PONG-ATUAL
+ ┣ 📂 backend
+ ┃ ┣ 📂 controllers    # Lógica de manipulação de dados
+ ┃ ┣ 📂 data           # Banco de dados simulado (db.json e orders.json)
+ ┃ ┣ 📂 routes         # Definição dos endpoints da API REST
+ ┃ ┣ 📜 server.js      # Ponto de entrada do Express
+ ┃ ┗ 📜 package.json   # Dependências do backend (Express, CORS)
+ ┣ 📂 frontend
+ ┃ ┣ 📜 index.html     # Visão do Cliente
+ ┃ ┣ 📜 app.js         # Lógica de consumo da API (Cliente)
+ ┃ ┣ 📜 admin.html     # Visão do Restaurante (Dashboard KDS)
+ ┃ ┣ 📜 admin.js       # Lógica de consumo da API (Admin)
+ ┃ ┗ 📜 style.css      # Estilização global da aplicação
+ ┗ 📜 .gitignore
+
+```
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Caique de Jesus Cardim (kyoshy)**, como parte dos requisitos acadêmicos no **Instituto Federal Catarinense (IFC) Campus Brusque**.
+
+Construído com código limpo, separação de responsabilidades e foco em boas práticas de Engenharia de Software.
+
+```
+
+```
