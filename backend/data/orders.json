@@ -1,0 +1,48 @@
+[
+  {
+    "id": "1783450116820",
+    "table": "8",
+    "items": [
+      {
+        "id": "1689000000001",
+        "name": "Naruto Uzumaki Roll",
+        "description": "Uramaki de salmão com cream cheese, coberto com ovas de massago laranja e cebolinha. Muita energia de chakra!",
+        "price": 35.9
+      },
+      {
+        "id": "1689000000001",
+        "name": "Naruto Uzumaki Roll",
+        "description": "Uramaki de salmão com cream cheese, coberto com ovas de massago laranja e cebolinha. Muita energia de chakra!",
+        "price": 35.9
+      }
+    ],
+    "total": 71.8,
+    "status": "Pronto",
+    "timestamp": "2026-07-07T18:48:36.820Z"
+  },
+  {
+    "id": "1783453360067",
+    "table": "10",
+    "items": [
+      {
+        "id": "1689000000002",
+        "name": "Goku Kamehameha",
+        "description": "Hot roll apimentado de atum com jalapeño, frito em massa crocante panko.",
+        "price": 38.5,
+        "category": "comida",
+        "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "id": "1689000000004",
+        "name": "Elixir Slime",
+        "description": "Soda italiana de maçã verde com boba explosiva de lichia.",
+        "price": 18,
+        "category": "bebida",
+        "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "total": 56.5,
+    "status": "Pronto",
+    "timestamp": "2026-07-07T19:42:40.067Z"
+  }
+]

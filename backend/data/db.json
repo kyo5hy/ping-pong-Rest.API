@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1689000000001",
+    "name": "Naruto Uzumaki Roll",
+    "description": "Uramaki de salmão com cream cheese, coberto com ovas de massago. Muita energia de chakra!",
+    "price": 35.95,
+    "category": "comida",
+    "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "1689000000002",
+    "name": "Goku Kamehameha",
+    "description": "Hot roll apimentado de atum com jalapeño, frito em massa crocante panko.",
+    "price": 38.5,
+    "category": "comida",
+    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "1689000000003",
+    "name": "Luffy's Meat Niguiri",
+    "description": "Fatias nobres de Wagyu levemente maçaricadas sobre o arroz de sushi com tarê.",
+    "price": 45,
+    "category": "comida",
+    "image": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "1689000000004",
+    "name": "Sukuna's Finger Temaki",
+    "description": "Temaki envolto em alga extra crocante, recheado com atum spicy e skin de salmão.",
+    "price": 28,
+    "category": "comida",
+    "image": "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "1689000000005",
+    "name": "Levi's Beyblade Sashimi",
+    "description": "Lâminas precisas de salmão, atum e peixe branco girando em uma apresentação impecável.",
+    "price": 65,
+    "category": "comida",
+    "image": "https://images.unsplash.com/photo-1534482421-64566f976cfa?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "1689000000006",
+    "name": "Saitama One Punch Bowl",
+    "description": "Poke bowl definitivo que derrota a fome com 1 golpe. Salmão, abacate, edamame e cebola crispy.",
+    "price": 42,
+    "category": "comida",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "1689000000007",
+    "name": "Totoro's Bento Box",
+    "description": "Combinado tradicional com tamagoyaki, onigiri e fatias de polvo.",
+    "price": 55,
+    "category": "comida",
+    "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "1689000000008",
+    "name": "Anya's Waku Waku Peanuts",
+    "description": "Porção de edamame salteado na manteiga de amendoim picante. Elegante!",
+    "price": 15,
+    "category": "comida",
+    "image": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "1689000000009",
+    "name": "Tanjiro's Slice Niguiri",
+    "description": "Cortes perfeitos de respiração da água: 5 niguiris de barriga de salmão trufado.",
+    "price": 32,
+    "category": "comida",
+    "image": "https://images.unsplash.com/photo-1563612116625-3012372fcec8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "1689000000010",
+    "name": "Ichigo's Bankai Dragon Roll",
+    "description": "Uramaki gigante com camarão empanado, abacate e ovas pretas de tobiko.",
+    "price": 48,
+    "category": "comida",
+    "image": "https://images.unsplash.com/photo-1617196034183-421b4917c92d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "1689000000011",
+    "name": "Sake Três Espadas do Zoro",
+    "description": "Três doses de saquês japoneses premium, servidos no masu tradicional de madeira.",
+    "price": 35,
+    "category": "bebida",
+    "image": "https://images.unsplash.com/photo-1560155016-bd4879ae8f21?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "1689000000012",
+    "name": "Elixir Slime (Rimuru)",
+    "description": "Soda italiana mágica de maçã verde com boba explosiva de lichia e gelo seco.",
+    "price": 18,
+    "category": "bebida",
+    "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "1689000000013",
+    "name": "Ramune do Chopper",
+    "description": "Tradicional refrigerante japonês de melão com a bolinha de gude. Ajuda a curar qualquer ferida.",
+    "price": 12,
+    "category": "bebida",
+    "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "1689000000014",
+    "name": "Chá Calmo do Iroh",
+    "description": "Chá de jasmim verdadeiro servido na chaleira de porcelana. Acalma o espírito.",
+    "price": 14,
+    "category": "bebida",
+    "image": "https://images.unsplash.com/photo-1576092762791-dd9e2220afa1?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "1689000000015",
+    "name": "Gintoki's Strawberry Milk",
+    "description": "O sagrado leite de morango gelado, cheio de açúcar para manter o espírito samurai alto.",
+    "price": 16,
+    "category": "bebida",
+    "image": "https://images.unsplash.com/photo-1556881286-fc6915169721?auto=format&fit=crop&w=600&q=80"
+  }
+]

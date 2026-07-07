@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍣</text></svg>">
+    <title>Otaku Sushi Bar - Streaming Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">⛩️ OTAKU SUSHI <span>すしアニメ</span></a>
+        <div class="nav-menu">
+            <a href="#menu">Cardápio</a>
+            <a href="./admin.html">Área do Chef (Admin)</a>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <span class="hero-tag">Destaque | Mais Pedido</span>
+            <h1>Yani Neko Combo</h1>
+            <p>Onde há fumaça, há uma garota-gato... e muito salmão fresco! Experimente o combo especial da semana com desconto de energia espiritual.</p>
+            <button class="btn-red" onclick="document.getElementById('menu').scrollIntoView({behavior: 'smooth'})">🍣 Pedir Agora</button>
+        </div>
+    </div>
+
+    <div class="container" id="menu">
+        <div class="category-tabs">
+            <button class="tab-btn active" onclick="filterMenu('todos')">Todos os Episódios</button>
+            <button class="tab-btn" onclick="filterMenu('comida')">Comidas</button>
+            <button class="tab-btn" onclick="filterMenu('bebida')">Bebidas</button>
+        </div>
+
+        <div id="menu-list" class="menu-grid">
+            </div>
+
+        <div class="cart-panel">
+            <h2>Sua Fila de Pedidos</h2>
+            <input type="number" id="table-number" placeholder="Número da sua Mesa" required>
+            <div id="cart-items" style="margin-bottom: 15px;"></div>
+            <h3>Total: R$ <span id="cart-total">0.00</span></h3>
+            <button class="btn-red" style="margin-top: 15px; width: 100%;" onclick="submitOrder()">Finalizar Pedido</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

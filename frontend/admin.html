@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔪</text></svg>">
+    <title>Dashboard Admin - Otaku Sushi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">⛩️ OTAKU ADMIN</a>
+        <div class="nav-menu">
+            <a href="./index.html">← Voltar ao Restaurante</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="admin-section">
+            <h2 style="margin-bottom: 20px;">Monitor de Pedidos da Cozinha 🔪</h2>
+            <button onclick="fetchOrders()" style="margin-bottom: 15px; background: #333;">Atualizar Painel 🔄</button>
+            <div id="orders-list">
+                </div>
+        </div>
+
+        <div class="admin-section">
+            <h2 id="form-title" style="margin-bottom: 20px;">Publicar Novo Episódio (Prato)</h2>
+            <form id="admin-form">
+                <input type="hidden" id="item-id">
+                <input type="text" id="name" placeholder="Título (Ex: Sushi do Levi)" required>
+                <textarea id="description" placeholder="Sinopse (Ingredientes...)" required></textarea>
+                
+                <div style="display: flex; gap: 10px;">
+                    <select id="category" required style="flex: 1;">
+                        <option value="comida">Comida</option>
+                        <option value="bebida">Bebida</option>
+                    </select>
+                    <input type="number" id="price" placeholder="Preço" step="0.01" required style="flex: 1;">
+                </div>
+                
+                <input type="url" id="image" placeholder="URL da Imagem de Capa" required>
+                
+                <div style="display: flex; gap: 10px; margin-top: 10px;">
+                    <button type="submit" class="btn-red">Salvar Episódio</button>
+                    <button type="button" id="btn-cancel" style="display: none; background: #333;">Cancelar</button>
+                </div>
+            </form>
+        </div>
+
+        <h2 style="margin: 40px 0 20px 0;">Episódios Publicados (Cardápio)</h2>
+        <div id="admin-list" class="menu-grid" style="margin-bottom: 50px;"></div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
